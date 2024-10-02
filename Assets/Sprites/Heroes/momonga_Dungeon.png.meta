@@ -210,10 +210,10 @@ TextureImporter:
       name: momonga_Dungeon_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 448
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +233,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 448
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -254,7 +254,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 448
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -277,8 +277,8 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4975977, y: 0.07326317}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,8 +298,8 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999905, y: 0.043236732}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,8 +319,8 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.503602, y: 0.013210297}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,8 +340,8 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5012007, y: 0.042036057}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,9 +462,9 @@ TextureImporter:
       name: momonga_Dungeon_16
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 416
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -485,7 +485,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 416
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -506,7 +506,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 416
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -672,9 +672,9 @@ TextureImporter:
       name: momonga_Dungeon_28
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 384
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -695,7 +695,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 384
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -735,7 +735,7 @@ TextureImporter:
       name: momonga_Dungeon_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 384
         width: 32
         height: 32
@@ -756,7 +756,7 @@ TextureImporter:
       name: momonga_Dungeon_32
       rect:
         serializedVersion: 2
-        x: 288
+        x: 304
         y: 384
         width: 32
         height: 32
@@ -777,7 +777,7 @@ TextureImporter:
       name: momonga_Dungeon_33
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 384
         width: 32
         height: 32
@@ -798,7 +798,7 @@ TextureImporter:
       name: momonga_Dungeon_34
       rect:
         serializedVersion: 2
-        x: 352
+        x: 368
         y: 384
         width: 32
         height: 32
@@ -819,9 +819,9 @@ TextureImporter:
       name: momonga_Dungeon_35
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 32
+        x: 176
+        y: 352
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -924,9 +924,9 @@ TextureImporter:
       name: momonga_Dungeon_40
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 352
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -947,7 +947,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 352
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -968,7 +968,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 352
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -987,7 +987,7 @@ TextureImporter:
       name: momonga_Dungeon_43
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 352
         width: 32
         height: 32
@@ -1008,7 +1008,7 @@ TextureImporter:
       name: momonga_Dungeon_44
       rect:
         serializedVersion: 2
-        x: 288
+        x: 304
         y: 352
         width: 32
         height: 32
@@ -1029,7 +1029,7 @@ TextureImporter:
       name: momonga_Dungeon_45
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 352
         width: 32
         height: 32
@@ -1050,7 +1050,7 @@ TextureImporter:
       name: momonga_Dungeon_46
       rect:
         serializedVersion: 2
-        x: 352
+        x: 368
         y: 352
         width: 32
         height: 32
@@ -1071,9 +1071,9 @@ TextureImporter:
       name: momonga_Dungeon_47
       rect:
         serializedVersion: 2
-        x: 384
-        y: 352
-        width: 32
+        x: 176
+        y: 416
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1176,9 +1176,9 @@ TextureImporter:
       name: momonga_Dungeon_52
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 320
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1199,7 +1199,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 320
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1220,7 +1220,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 320
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1239,7 +1239,7 @@ TextureImporter:
       name: momonga_Dungeon_55
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 320
         width: 32
         height: 32
@@ -1260,7 +1260,7 @@ TextureImporter:
       name: momonga_Dungeon_56
       rect:
         serializedVersion: 2
-        x: 288
+        x: 304
         y: 320
         width: 32
         height: 32
@@ -1281,7 +1281,7 @@ TextureImporter:
       name: momonga_Dungeon_57
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 320
         width: 32
         height: 32
@@ -1302,7 +1302,7 @@ TextureImporter:
       name: momonga_Dungeon_58
       rect:
         serializedVersion: 2
-        x: 352
+        x: 368
         y: 320
         width: 32
         height: 32
@@ -1323,9 +1323,9 @@ TextureImporter:
       name: momonga_Dungeon_59
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
-        width: 32
+        x: 176
+        y: 448
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1428,9 +1428,9 @@ TextureImporter:
       name: momonga_Dungeon_64
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 288
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1449,9 +1449,9 @@ TextureImporter:
       name: momonga_Dungeon_65
       rect:
         serializedVersion: 2
-        x: 160
+        x: 176
         y: 288
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1470,7 +1470,7 @@ TextureImporter:
       name: momonga_Dungeon_66
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 288
         width: 32
         height: 32
@@ -1491,7 +1491,7 @@ TextureImporter:
       name: momonga_Dungeon_67
       rect:
         serializedVersion: 2
-        x: 288
+        x: 304
         y: 288
         width: 32
         height: 32
@@ -1512,7 +1512,7 @@ TextureImporter:
       name: momonga_Dungeon_68
       rect:
         serializedVersion: 2
-        x: 320
+        x: 336
         y: 288
         width: 32
         height: 32
@@ -1533,7 +1533,7 @@ TextureImporter:
       name: momonga_Dungeon_69
       rect:
         serializedVersion: 2
-        x: 352
+        x: 368
         y: 288
         width: 32
         height: 32
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: momonga_Dungeon_70
       rect:
         serializedVersion: 2
-        x: 384
-        y: 288
-        width: 32
-        height: 32
+        x: 144
+        y: 464
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,10 +1659,10 @@ TextureImporter:
       name: momonga_Dungeon_75
       rect:
         serializedVersion: 2
-        x: 128
+        x: 144
         y: 256
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1682,8 +1682,8 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 256
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1703,8 +1703,8 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 256
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1724,8 +1724,8 @@ TextureImporter:
         serializedVersion: 2
         x: 224
         y: 256
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1911,10 @@ TextureImporter:
       name: momonga_Dungeon_88
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
+        x: 144
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1933,9 +1933,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 224
-        width: 32
-        height: 32
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2474,6 +2474,216 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a46ad12cae754da9a727a4bf753cb
+      internalID: -1479908811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c5e7eee86dcbc4bbdc11801879aa9a
+      internalID: -947712740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219c99766f917344aaaccc890d1727f6
+      internalID: -1931163380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222a2a7b0a93e1141ac3af6fc6496f8d
+      internalID: -978806164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb29d8216f5ed54fad446563cbfa4df
+      internalID: 1311194585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_117
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526eedd55b1764f4ba2b0e6f65d30a1e
+      internalID: -87511884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_118
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3fd058e1927dd40ba28aa6df5efe29
+      internalID: 1794447258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_119
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56914e654b151c4b9ae72fd2a4eeb11
+      internalID: 339468756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737d5cf3e202ef4fa9df32bc71d86c1
+      internalID: -1749433738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: momonga_Dungeon_121
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 448
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c8d3c0de7b86441bd64e5b2c33d88a
+      internalID: 1942448249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2507,7 +2717,11 @@ TextureImporter:
       momonga_Dungeon_115: 1160643322
       momonga_Dungeon_116: -781803912
       momonga_Dungeon_117: -87511884
+      momonga_Dungeon_118: 1794447258
+      momonga_Dungeon_119: 339468756
       momonga_Dungeon_12: 648282956
+      momonga_Dungeon_120: -1749433738
+      momonga_Dungeon_121: 1942448249
       momonga_Dungeon_13: 1945655137
       momonga_Dungeon_14: -395100241
       momonga_Dungeon_15: -1113233262
