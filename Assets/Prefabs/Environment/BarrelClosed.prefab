@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Size: {x: 0.94110394, y: 0.7271953, z: 4}
-  m_Center: {x: 0.018189907, y: 0.42352602, z: 0}
+  m_Size: {x: 1.8234954, y: 0.92822456, z: 4}
+  m_Center: {x: -0.005550146, y: 0.45871854, z: 0}
   m_Area: 1
   m_AffectedAgents: ffffffff

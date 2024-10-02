@@ -25,10 +25,10 @@ public class PlayerVisual : MonoBehaviour
     //поворачиваем еблище героя сука
     private void AdjustPlayerFacingDirection() 
     {
-        Vector3 mousePos = GameInput.Instance.GetMousePosition();
-        Vector3 playerPosition =Player.Instance.GetPlayerScreenPosition();
+        Vector3 mousePos = GameInput.Instance.GetMousePosition(); //смотрит координаты курсора
+        Vector3 playerPosition =Player.Instance.GetPlayerScreenPosition(); //смотрит координаты героя
 
-        if (mousePos.x < playerPosition.x) 
+        if (mousePos.x < playerPosition.x) //если координата курсора по оси х меньше оси х героя, то разворачивает его
         {
             spriteRenderer.flipX = true;
         }

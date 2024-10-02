@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
 
     [SerializeField] private float movementSpeed = 10f;
+    Vector2 inputVector;
 
     private PlayerInputActions playerInputActions;
 
@@ -22,17 +23,19 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        inputVector = GameInput.Instance.GetMovementVector();
+    }
+
     private void FixedUpdate()
     {
         HandleMovement();
     }
 
     private void HandleMovement()
-    {
-        Vector2 inputVector = GameInput.Instance.GetMovementVector();
+    {    
         rb.MovePosition(rb.position + (inputVector * movementSpeed * Time.fixedDeltaTime));
-
-
        //проверяем бежит герой или нет
         if (Mathf.Abs(inputVector.x) > minMovementSpeed || Mathf.Abs(inputVector.y) > minMovementSpeed) 
         {
