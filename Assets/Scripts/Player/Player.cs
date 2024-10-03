@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
@@ -21,6 +23,15 @@ public class Player : MonoBehaviour
     {
         Instance = this;   
         rb = GetComponent<Rigidbody2D>();
+    }
+    private void Start()
+    {
+        GameInput.Instance.OnPlayerAttack += GameInput_OnPlayerAttack; //функция будет срабатывать при нажатии левой кнопки мыши
+    }
+
+    private void GameInput_OnPlayerAttack(object sender, System.EventArgs e)
+    {
+        ActiveWeapon.Instance.GetActiveWeapon().Attack(); //спрашивает у текущего оружия, какое оно(меч) и вызывает функцию атаки     
     }
 
     private void Update()
