@@ -12,8 +12,6 @@ public class Player : MonoBehaviour
     [SerializeField] private float movementSpeed = 10f;
     Vector2 inputVector;
 
-    private PlayerInputActions playerInputActions;
-
     private Rigidbody2D rb;
 
     private float minMovementSpeed = 0.1f;
