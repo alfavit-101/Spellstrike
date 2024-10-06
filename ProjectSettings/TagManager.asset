@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemies
+  - Environment
+  - Ground
+  - Player
+  - LaserReflect
   - 
   - 
   - 

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9146280396997855244}
   - component: {fileID: 1867145355088730656}
-  - component: {fileID: 6672618898174765439}
   - component: {fileID: 2689585844629242412}
-  m_Layer: 0
+  - component: {fileID: 9211709626382941473}
+  m_Layer: 7
   m_Name: BarrelClosed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,10 +28,11 @@ Transform:
   m_GameObject: {fileID: 286188962928089107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.49, y: 0.11, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7844595503544256874}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1867145355088730656
@@ -86,7 +87,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!70 &6672618898174765439
+--- !u!114 &2689585844629242412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286188962928089107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 1.8234954, y: 0.92822456, z: 4}
+  m_Center: {x: -0.005550146, y: 0.45871854, z: 0}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
+--- !u!70 &9211709626382941473
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,22 +135,61 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012621293, y: 0.4323338}
-  m_Size: {x: 1.7849764, y: 0.92392594}
+  m_Offset: {x: -0.0025226572, y: 0.4207853}
+  m_Size: {x: 1.8627794, y: 0.8332341}
   m_Direction: 1
---- !u!114 &2689585844629242412
-MonoBehaviour:
+--- !u!1 &8879290337740965460
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286188962928089107}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7844595503544256874}
+  - component: {fileID: 2646827650323970768}
+  m_Layer: 10
+  m_Name: LaserReflectCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7844595503544256874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879290337740965460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9146280396997855244}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2646827650323970768
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879290337740965460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Size: {x: 1.8234954, y: 0.92822456, z: 4}
-  m_Center: {x: -0.005550146, y: 0.45871854, z: 0}
-  m_Area: 1
-  m_AffectedAgents: ffffffff
+  serializedVersion: 2
+  m_Radius: 0.988567
+  m_Height: 2.3201613
+  m_Direction: 1
+  m_Center: {x: -0.008672833, y: 1.1552784, z: 0}
